@@ -8,6 +8,10 @@
 		<data>
 		kWo4kICO1HVr7AXB+LU+NhIKM/E=
 		</data>
+		<key>FontAwesome.ttf</key>
+		<data>
+		E7HqtlqYPHpzvHmXxHnWaUP3xss=
+		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
 		8CN5cCzwKl0+7ieNPMN/SawZQA8=
@@ -51,7 +55,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		a83SH7Vz3ybu24tW/cDTgKvnXks=
+		faBzqrSFfOLvr9cfLlbQ4e9XLUo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -75,7 +79,7 @@
 		</data>
 		<key>PlugIns/sellItApp2Tests.xctest/sellItApp2Tests</key>
 		<data>
-		TduSLjYe/aKF27y1YFwlW2IYjsQ=
+		XNjeOxA+rxvRhkQHJ3BK01He6kk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -89,6 +93,17 @@
 			<key>hash2</key>
 			<data>
 			fnEW829rL528TxFWpqWQCgXYGWo+uFvLaRU9iw8XPrs=
+			</data>
+		</dict>
+		<key>FontAwesome.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E7HqtlqYPHpzvHmXxHnWaUP3xss=
+			</data>
+			<key>hash2</key>
+			<data>
+			qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -240,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TduSLjYe/aKF27y1YFwlW2IYjsQ=
+			XNjeOxA+rxvRhkQHJ3BK01He6kk=
 			</data>
 			<key>hash2</key>
 			<data>
-			a6nfyHAn9+jpFRROJng8msUTzDz5af+n/MKF0ZrKSU4=
+			F7+RI+mieHlcFymFK/QBWGGnYY4q7Pz80bsQWKNplhU=
 			</data>
 		</dict>
 	</dict>
