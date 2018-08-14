@@ -53,12 +53,31 @@ class Home extends Component {
 
   }
 
+  gotoArticleHandler = (props) => {
+    this.props.navigator.push({
+      screen: "sellitApp.Articles",
+      animationType: "slide-horizontal",
+      passProps: {
+        ArticleData : props
+      },
+      backButotnTitle: 'Back to home',
+      //Android only
+      navigatorStyle: {
+        navBarTextFontSize: 20,
+        navBarTextColor : '#ffffff',
+        navBarBackgroundColor: '#00ADA9',
+        screenBackgroundColor: '#ffffff'
+      }
+    })
+  }
+
   showArticles = () => (
     this.state.articles.map((item, i) => (
       <BlockItem
         key={`columnHome-${i}`}
         item={item}
         iteration={i}
+        goto={this.gotoArticleHandler}
       />
     ))
   )
