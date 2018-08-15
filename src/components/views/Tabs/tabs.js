@@ -31,7 +31,7 @@ const navStyle = {
     navBarButtonColor : 'white'
 }
 
-const loadTabs = () => {
+const loadTabs = (allow) => {
     Promise.all([
         Icon.getImageSource('navicon', 20, 'white'),
         Icon.getImageSource('search', 20, 'white'),
@@ -51,7 +51,7 @@ const loadTabs = () => {
                     }
                 },
                 {
-                    screen: "sellitApp.AddPost",
+                    screen: allow ? "sellitApp.AddPost" : "sellitApp.NotAllow",
                     label: "Sell it",
                     title: "Sell it",
                     icon: sources[1],

@@ -60,7 +60,7 @@ class Login extends Component {
             this.setState({ loading: false })
           } else {
             setToken(this.props.User.userData, () => {
-              loadTabs()
+              loadTabs(true)
             })
           }
         })

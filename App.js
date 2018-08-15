@@ -3,6 +3,7 @@ import {Navigation} from 'react-native-navigation';
 import Login from './src/components/views/Login';
 import Home from './src/components/views/Home';
 import AddPost from './src/components/views/Admin/AddPost';
+import NotAllow from './src/components/views/Admin/AddPost/notallow';
 import UserPosts from './src/components/views/Admin/UserPosts';
 import ConfigureStore from './src/components/Store/config';
 import {Provider} from 'react-redux';
@@ -50,6 +51,13 @@ Navigation.registerComponent(
   "sellitApp.Articles",
   ()=>
   Articles,
+  Store,
+  Provider
+);
+Navigation.registerComponent(
+  "sellitApp.NotAllow",
+  ()=>
+  NotAllow,
   Store,
   Provider
 );

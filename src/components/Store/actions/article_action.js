@@ -1,5 +1,7 @@
 import {
-    GET_ARTICLES
+    GET_ARTICLES,
+    ADD_ARTICLES,
+    RESET_ARTICLES
 } from '../types';
 
 import axios from 'axios';
@@ -28,5 +30,27 @@ export function getArticles(category) {
     return{
         type: GET_ARTICLES,
         payload : request
+    }
+}
+
+export function addArticles(data, token) {
+    const request = axios({
+        method:'POST',
+        url: `${FIREBASEURL}/articles.json?auth=${token}`,
+        data
+    }).then( response => {
+        return response.data
+    })
+
+    return {
+        type: ADD_ARTICLES,
+        payload: request
+    }
+}
+
+export function resetArticles(){
+    return {
+        type: RESET_ARTICLES,
+        payload: request
     }
 }
